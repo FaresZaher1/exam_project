@@ -21,8 +21,6 @@ class homepage extends StatelessWidget {
                 children: [
                   Image.network(p.obj?.data[i]['image']),
                   SizedBox(height: 15,),
-                  Text(p.obj?.data[i]['name']),
-                  SizedBox(height: 15,),
                   Text((p.obj?.data[i]['price']).toString())
                 ],
               ),
